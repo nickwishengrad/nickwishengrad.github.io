@@ -1,20 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@font-face { 
-	font-family: 'Simplifica'; 
-	src: url('font/path/simplifica.eot'); 
-	src: url('font/path/simplifica.eot?#iefix') 
-	format('embedded-opentype'), 
-	url('font/path/simplifica.svg#Simplifica') 
-	format('svg'), 
-	url('font/path/simplifica.woff') 
-	format('woff'),
-	url('font/path/simplifica.ttf') 
-	format('truetype'); 
-	font-weight: normal; 
-	font-style: normal;}
-
+@font-face {
+    font-family: 'SimplificaSimplifica';
+    src: url('simplifica.eot');
+    src: url('simplifica.eot') format('embedded-opentype'),
+         url('simplifica.woff2') format('woff2'),
+         url('simplifica.woff') format('woff'),
+         url('simplifica.ttf') format('truetype'),
+         url('simplifica.svg#SimplificaSimplifica') format('svg');
+}
 #pagecontainer {
 	width: 1000px;
 	max-width: 1024px;
