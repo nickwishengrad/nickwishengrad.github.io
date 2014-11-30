@@ -78,7 +78,7 @@ $("#news").click(function() {
 
 $("#tour").click(function() {
 	$('html, body').animate({
-		'scrollTop': '1337'
+		'scrollTop': '1345'
         }, 650);
 });
 $("#contact").click(function() {
@@ -96,7 +96,7 @@ $("#home").click(function() {
 		'scrollTop': '0'
         }, 650);
 });
-$("#seeblock").click(function() {
+$("#seemore").click(function() {
 	$('html, body').animate({
 		'scrollTop': '660'
         }, 650);
