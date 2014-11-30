@@ -10,18 +10,28 @@ $(document).ready(function() {
 
 $('#rightcontent').click(function() {
 	if ($("#popup").css('display') == 'none') {
-		$("#popup").show();
+		setTimeout(function() {
+			$("#popup").show();
+		}, 0);		
 	} else {
 		$("#popup").hide();
 }
 })
 
 
+// setTimeout(function () {
+//       $("#popup").show();
+//     }, 20);
+
 //click on cancel or confirm
 //	close the popup
 
 $('#buttoncontainter').click(function() {
+	
+	setTimeout(function() {
 	$("#popup").hide();
+	}, 500);
+
 })
 
 //if you click confirm, the next time you open the popup, you will be thanked
@@ -29,10 +39,16 @@ $('#buttoncontainter').click(function() {
 $("#confirm").click(function(){
   $("#popuptext").text("Thank you for sharing!");
 });
+
 $("#confirm").click(function(){
+	setTimeout(function() {
 	$("#confirm").hide();
 	$("#buttoncontainter").css('width', 135)
 	$("#cancel").text("Close")
+	}, 501);
+
+
+	
 });
 
 
@@ -48,9 +64,23 @@ $("#confirm").click(function(){
 });  
 
 
-
+$("#news").click(function() {
+	$('html, body').animate({
+		scrollTop: $( $.attr(this, window)).offset().top
+}, 650);
+})
   
-});   
+
+
+
+
+
+});  
+
+
+// $('html, body').animate({
+// scrollTop: $( $.attr(this, 'href')).offset().top
+// }, 300);
 
 
 //$("#id").css("display", "none");
