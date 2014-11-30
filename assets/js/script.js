@@ -73,11 +73,34 @@ $("#confirm").click(function(){
 $("#news").click(function() {
 	$('html, body').animate({
 		'scrollTop': '650'
-        }, 650);
+        }, 660);
 });
 
-
-
+$("#tour").click(function() {
+	$('html, body').animate({
+		'scrollTop': '650'
+        }, 1337);
+});
+$("#contact").click(function() {
+	$('html, body').animate({
+		'scrollTop': '650'
+        }, 2036);
+});
+$("#paullogo").click(function() {
+	$('html, body').animate({
+		'scrollTop': '650'
+        }, 0);
+});
+$("#home").click(function() {
+	$('html, body').animate({
+		'scrollTop': '650'
+        }, 0);
+});
+$("#seeblock").click(function() {
+	$('html, body').animate({
+		'scrollTop': '650'
+        }, 660);
+});
 
 });  
 
