@@ -93,6 +93,8 @@ body {
 	right: 0px;
 	background-color: black;
 	display: none;
+/*	transition: linear 0.4s;
+	-webkit-transition: linear 0.4s;*/
 }
 #popuptext {
 	color: white;

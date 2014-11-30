@@ -64,13 +64,17 @@ $("#confirm").click(function(){
 });  
 
 
+// $("#news").click(function() {
+// 	$('html, body').animate({
+// 		'scrollTop': ($.attr(this, window)
+// }, 650);
+// })
+  
 $("#news").click(function() {
 	$('html, body').animate({
-		scrollTop: $( $.attr(this, window)).offset().top
-}, 650);
-})
-  
-
+		'scrollTop': '650'
+        }, 650);
+});
 
 
 
